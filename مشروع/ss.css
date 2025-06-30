@@ -1,0 +1,23 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+.navigation ul{
+display: flex;
+list-style-type:none ;
+gap: 10rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.navigation a:hover{
+    text-decoration: none;
+    color: rgb(76, 175, 233);
+}
